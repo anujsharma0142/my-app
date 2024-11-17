@@ -1,12 +1,14 @@
 import { Button, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import ComponentExample from './src/components/componentExample/ComponentExample'
+import ButtonComponent from './src/components/buttonComponent/ButtonComponent'
+
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
-      <Text style={{fontSize:28}}>Hello Anuj Sharma</Text>
-      <Button title='Press here' />
+      <ComponentExample/>
+      <ButtonComponent/>
     </View>
   )
 }
